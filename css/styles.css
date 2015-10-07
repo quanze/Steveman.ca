@@ -1,0 +1,122 @@
+body,html{
+	margin: 0;
+	height: 100%;
+	background-color: #181818 ;
+	color: #B0B0B0  ;
+}
+a:visited, a:hover, a:active {
+  color: inherit;
+}
+.header{
+	border-bottom: 2px solid #66FF66;
+	color: #F8F8F8 ;
+	text-align: center;
+	padding: 1.5%;
+}
+.header .headerName{
+	font-size: 20px;
+	float: left;
+	font-weight: bolder;
+	margin-left: 3%;
+}
+.header .headerLinks{
+	font-size: 20px;
+	float: right;
+	width: 35%;
+}
+.header .headerLinks .headerLink{
+	margin-left: 4.5%;
+	padding: 3%;
+
+}
+
+.header a{
+	text-decoration: none;
+}
+.header a:hover{
+    box-sizing: border-box;
+	border-radius: 5px;
+	border-top: 4px solid #66FF66;
+	border-bottom: 4px solid #66FF66;
+}
+.heroBackground{
+	background-image: url(../img/TreeBackground.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: center; */
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.heroText{
+	font-size: 60px;
+	font-weight: bolder;
+	text-align: center;
+	padding: 15% 0;
+	color: white;
+}
+.heroScroll{
+	text-align: center;
+	font-size: 45px;
+	margin-top: 2%;
+}
+.heroScrollBorder{
+	border: 5px solid #66FF66;
+	border-radius: 100px;
+	padding: 0 50px;
+	line-height: 20px;
+	color: white;	
+}
+.heroScroll a {
+	text-decoration: none;
+}
+.aboutMe{
+	
+
+}
+.aboutMeTitle{
+	text-align: center;
+	padding: 2%;
+}
+.aboutMeTitle h1{
+	font-size: 60px;
+}
+.aboutMeText{
+	text-align: center;
+	font-size: 18px;
+	line-height: 251%;
+	border-left: 2px solid #66FF66;
+	border-right: 2px solid #66FF66;
+	border-radius: 45px;
+}
+
+
+
+.topGreenBorder{
+	border-top: 6px solid #66FF66;
+}
+
+
+
+
+
+
+
+
+/*Media Quries*/
+
+@media (max-width: 1200px) { 
+	.header .headerLinks{
+		width: 55%;
+	}
+ }
+ @media (max-width: 660px) { 
+	.header .headerLinks{
+		width: 65%;
+	}
+ }
+
+
+
+
